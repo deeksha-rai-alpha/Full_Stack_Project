@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // 🔹 MongoDB Connection (Native Driver)
-const url = "mongodb://localhost:27017";
+const url = "mongodb+srv://deeksharai:deeksharai123@cluster0.wqlyb5l.mongodb.net/collegeDB";
 const client = new MongoClient(url);
 let db, Teams, Players, Matches, Umpires;
 
